@@ -1,0 +1,21 @@
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    width: 330px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--color-main);
+    row-gap: 56px;
+}
+
+@media (max-width: 480px) {
+    .left-menu {
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+        width: 100%;
+        background: var(--color-main);
+    }
+}
